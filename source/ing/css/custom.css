@@ -1,0 +1,11 @@
+/* Fix word wrapping in article content */
+.trm-publication,
+.trm-publication * {
+    word-break: keep-all !important;
+    overflow-wrap: normal !important;
+    hyphens: none !important;
+}
+
+.trm-publication {
+    white-space: normal !important;
+}
