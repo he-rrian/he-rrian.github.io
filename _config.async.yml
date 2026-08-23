@@ -175,8 +175,8 @@ banner:
 
 categorie_card:
   enable: true
-  len: 3
-  list: ["Modern Family", "Deeplearning", "线性代数"]
+  len: 5
+  list: ["Modern Family", "深度学习", "线性代数", "模电"]
 
 icons:
   # 主题切换图标
