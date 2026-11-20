@@ -1,3 +1,7 @@
+# 本工作流负责构建 Hexo 并发布到 GitHub Pages。
+# 注意：仓库 Settings > Pages > Build and deployment > Source 必须选择 "GitHub Actions"，
+# 否则 GitHub 会额外用 Jekyll 解析根目录的 _config.yml（其中 theme: async 属于 Hexo），
+# 导致 "pages build and deployment" 出现红叉。
 name: Pages
 
 on:
